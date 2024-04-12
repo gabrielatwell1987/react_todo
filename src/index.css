@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tilt+Neon&display=swap')
 
 * {
   font-family: "Poppins", sans-serif;
@@ -12,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .black {
@@ -26,6 +28,7 @@ h1 {
   color: hsl(0, 4%, 90%);
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
+  font-family: "Tilt Neon", sans-serif;
 }
 
 .TodoWrapper {
