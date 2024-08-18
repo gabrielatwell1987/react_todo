@@ -23,7 +23,7 @@ function EditTodoForm({ editTodo, task }) {
       />
 
       <button type="submit" className="todo-btn">
-        Update Task
+        Update Item
       </button>
     </form>
   );
