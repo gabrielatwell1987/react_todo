@@ -1,104 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tilt+Neon&display=swap');
-
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: hsl(240, 2%, 84%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: "Open Sans", sans-serif;
-}
-
-.black {
-  color: black;
-}
-
-.App {
-  text-align: center;
-}
-
-h1 {
-  color: hsl(0, 4%, 90%);
-  margin-bottom: 0.5rem;
-  font-size: 1.75rem;
-  font-family: "Tilt Neon", sans-serif;
-}
-
-.TodoWrapper {
-  background: hsl(229, 95%, 22%);
-  padding: 2rem;
-  border-radius: 5px;
-  border: 2px solid white;
-}
-
-.TodoForm {
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-.todo-input {
-  outline: none;
-  background: none;
-  border: 1px solid hsl(224, 100%, 67%);
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  width: 300px;
-  color: hsl(0, 7%, 81%);
-}
-
-.todo-input::placeholder {
-  color: hsla(0, 17%, 83%, 0.302);
-}
-
-.todo-btn {
-  background: hsl(197, 100%, 67%);
-  color: hsl(0, 2%, 25%);
-  border: none;
-  padding: 0.55rem;
-  cursor: pointer;
-}
-
-.Todo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: hsl(240, 4%, 95%);
-  color: hsl(0, 0%, 11%);
-  padding: 0.75rem 1rem;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-.fa-trash {
-  margin-left: 0.75rem;
-}
-
-.incompleted {
-  color: hsl(0, 73%, 35%);
-  cursor: pointer;
-}
-
-.completed {
-  color: hsl(155, 94%, 18%);
-  text-decoration: line-through;
-  cursor: pointer;
-}
-
-.edit-icon,
-.delete-icon {
-  cursor: pointer;
-} */
-
-@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tilt+Neon&display=swap");
 
 * {
@@ -130,6 +30,7 @@ h1 {
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
   letter-spacing: 5px;
+  font-family: "Libre Baskerville", serif;
 }
 
 .TodoWrapper {
