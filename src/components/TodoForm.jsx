@@ -17,13 +17,13 @@ function TodoForm({ addTodo }) {
       <input
         type="text"
         className="todo-input"
-        placeholder="What is your task?"
+        placeholder="What is your grocery item?"
         onChange={(e) => setValue(e.target.value)}
         value={value}
       />
 
       <button type="submit" className="todo-btn">
-        Add Task
+        Add Item
       </button>
     </form>
   );

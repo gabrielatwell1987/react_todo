@@ -8,7 +8,7 @@
 }
 
 body {
-  background: hsl(240, 2%, 84%);
+  background: hsl(0, 0%, 59%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,10 +26,11 @@ h1 {
   color: hsl(0, 4%, 90%);
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
+  letter-spacing: 5px;
 }
 
 .TodoWrapper {
-  background: hsl(229, 95%, 22%);
+  background: #242424;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -43,7 +44,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid hsl(224, 100%, 67%);
+  border: 1px solid hsl(170, 56%, 53%);
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -52,11 +53,11 @@ h1 {
 }
 
 .todo-input::placeholder {
-  color: hsla(0, 17%, 83%, 0.302);
+  color: hsla(0, 5%, 92%, 0.602);
 }
 
 .todo-btn {
-  background: hsl(197, 100%, 67%);
+  background: hsl(170, 56%, 53%);
   color: hsl(0, 2%, 25%);
   border: none;
   padding: 0.55rem;
@@ -67,7 +68,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: hsl(240, 4%, 95%);
+  background: hsl(240, 4%, 55%);
   color: hsl(0, 0%, 11%);
   padding: 0.75rem 1rem;
   border-radius: 5px;
