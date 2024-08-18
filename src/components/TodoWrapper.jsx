@@ -46,7 +46,7 @@ function TodoWrapper() {
 
   return (
     <div className="TodoWrapper">
-      <h1>Kill Your Tasks</h1>
+      <h1>Shopping List</h1>
 
       <TodoForm addTodo={addTodo} />
 
