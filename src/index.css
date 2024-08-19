@@ -110,7 +110,7 @@ input {
 }
 
 @media (min-width: 300px) {
-  .TodoWrapper {
+  .App {
     width: 100%;
   }
 }
