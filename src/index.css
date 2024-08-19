@@ -102,3 +102,7 @@ h1 {
   cursor: pointer;
 }
 
+input {
+  border-radius: 10px;
+}
+
