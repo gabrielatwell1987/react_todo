@@ -61,6 +61,7 @@ h1 {
 
 .todo-input::placeholder {
   color: hsla(0, 5%, 92%, 0.602);
+  font-weight: 600;
 }
 
 .todo-btn {
