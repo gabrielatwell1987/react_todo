@@ -109,5 +109,11 @@ input {
   border-radius: 10px;
 }
 
+@media (min-width: 300px) {
+  .TodoWrapper {
+    width: 100%;
+  }
+}
+
 
 
