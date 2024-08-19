@@ -25,6 +25,8 @@ body {
 
 .App {
   text-align: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 h1 {
@@ -108,12 +110,3 @@ h1 {
 input {
   border-radius: 10px;
 }
-
-@media (min-width: 300px) {
-  .App, .TodoWrapper {
-    width: 100%;
-  }
-}
-
-
-
