@@ -15,6 +15,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: "Open Sans", sans-serif;
+  padding: 2rem;
 }
 
 .black {
