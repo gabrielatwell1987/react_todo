@@ -48,6 +48,8 @@ function TodoWrapper() {
     <div className="TodoWrapper">
       <h1>Shopping List</h1>
 
+      <img src="groceries.webp" alt="groceries" width={250} />
+
       <TodoForm addTodo={addTodo} />
 
       {todos.map((todo, index) =>
