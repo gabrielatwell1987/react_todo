@@ -9,12 +9,14 @@
 }
 
 body {
-  background: hsl(0, 0%, 59%);
+  background: hsl(240, 2%, 84%);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
   height: 100vh;
   font-family: "Open Sans", sans-serif;
+  padding: 2rem;
 }
 
 .black {
@@ -26,18 +28,18 @@ body {
 }
 
 h1 {
-  color: hsl(0, 4%, 90%);
+  color: #242424;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
-  letter-spacing: 5px;
+  font-family: "Tilt Neon", sans-serif;
 }
 
 .TodoWrapper {
-  background: #242424;
-  margin-top: 5rem;
+  background: hsl(229, 95%, 22%);
   padding: 2rem;
-  border-radius: 5px;
-  border: 2px solid white;
+  border-radius: 15px;
+  font-weight: 600;
+  box-sizing: border-box;
 }
 
 .TodoForm {
@@ -48,31 +50,33 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid hsl(170, 56%, 53%);
+  border: 1px solid hsl(224, 100%, 67%);
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   width: 300px;
-  color: hsl(0, 7%, 81%);
+  color: #242424;
 }
 
 .todo-input::placeholder {
-  color: hsla(0, 5%, 92%, 0.602);
+  color: hsla(0, 17%, 83%, 0.302);
 }
 
 .todo-btn {
-  background: hsl(170, 56%, 53%);
+  background: hsl(197, 100%, 67%);
   color: hsl(0, 2%, 25%);
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  border-radius: 10px;
+  margin: 0 0 0 1rem;
 }
 
 .Todo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: hsl(240, 4%, 55%);
+  background: hsl(240, 4%, 95%);
   color: hsl(0, 0%, 11%);
   padding: 0.75rem 1rem;
   border-radius: 5px;
@@ -97,4 +101,8 @@ h1 {
 .edit-icon,
 .delete-icon {
   cursor: pointer;
+}
+
+input {
+  border-radius: 10px;
 }
