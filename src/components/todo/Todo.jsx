@@ -6,12 +6,14 @@ import styles from "./todo.module.css";
 function Todo({ task, toggleComplete, deleteTodo, editTodo }) {
   return (
     <div className={styles.Todo}>
-      <p
-        onClick={() => toggleComplete(task.id)}
-        className={`${task.completed ? "completed" : ""}`}
-      >
-        {task.task}
-      </p>
+      <div className={styles.cursor}>
+        <p
+          onClick={() => toggleComplete(task.id)}
+          className={`${task.completed ? "completed" : ""}`}
+        >
+          {task.task}
+        </p>
+      </div>
 
       <div>
         <FontAwesomeIcon icon={faPencil} onClick={() => editTodo(task.id)} />
