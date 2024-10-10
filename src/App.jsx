@@ -1,4 +1,4 @@
-import TodoWrapper from "./components/TodoWrapper";
+import TodoWrapper from "./components/wrapper/TodoWrapper";
 
 function App() {
   return (

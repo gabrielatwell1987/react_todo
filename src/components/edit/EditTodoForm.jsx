@@ -1,32 +1,33 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
+import styles from "./edittodoform.module.css";
 
-// eslint-disable-next-line react/prop-types
-function TodoForm({ addTodo }) {
-  const [value, setValue] = useState("");
+function EditTodoForm({ editTodo, task }) {
+  const [value, setValue] = useState(task.task);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    addTodo(value);
+    editTodo(value, task.id);
 
     setValue("");
   };
 
   return (
-    <form className="TodoForm" onSubmit={handleSubmit}>
+    <form className={styles.TodoForm} onSubmit={handleSubmit}>
       <input
         type="text"
         className="todo-input"
-        placeholder="What is your grocery item?"
+        placeholder="Update task"
         onChange={(e) => setValue(e.target.value)}
         value={value}
       />
 
       <button type="submit" className="todo-btn">
-        Add Item
+        Update Item
       </button>
     </form>
   );
 }
 
-export default TodoForm;
+export default EditTodoForm;

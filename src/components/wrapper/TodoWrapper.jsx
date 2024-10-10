@@ -1,8 +1,9 @@
 import { useState } from "react";
-import TodoForm from "./TodoForm";
+import TodoForm from "../form/TodoForm";
 import { v4 as uuidv4 } from "uuid";
-import Todo from "./Todo";
-import EditTodoForm from "./EditTodoForm";
+import Todo from "../todo/Todo";
+import EditTodoForm from "../edit/EditTodoForm";
+import styles from "./todowrapper.module.css";
 
 uuidv4();
 
@@ -45,7 +46,7 @@ function TodoWrapper() {
   };
 
   return (
-    <div className="TodoWrapper">
+    <div className={styles.TodoWrapper}>
       <h1>Shopping List</h1>
 
       <img src="groceries.webp" alt="groceries" width={250} />
