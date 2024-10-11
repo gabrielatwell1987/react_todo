@@ -16,8 +16,16 @@ function Todo({ task, toggleComplete, deleteTodo, editTodo }) {
       </div>
 
       <div>
-        <FontAwesomeIcon icon={faPencil} onClick={() => editTodo(task.id)} />
-        <FontAwesomeIcon icon={faTrash} onClick={() => deleteTodo(task.id)} />
+        <FontAwesomeIcon
+          icon={faPencil}
+          onClick={() => editTodo(task.id)}
+          className={styles.Cursor}
+        />
+        <FontAwesomeIcon
+          icon={faTrash}
+          onClick={() => deleteTodo(task.id)}
+          className={styles.Cursor}
+        />
       </div>
     </div>
   );

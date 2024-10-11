@@ -2,3 +2,37 @@
   width: 100%;
   margin-top: 5%;
 }
+
+.TodoInput {
+  outline: none;
+  background: none;
+  border: 2px solid hsl(224, 31%, 66%);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #242424;
+  border-radius: 10px;
+}
+
+.TodoInput::placeholder {
+  color: #333232;
+  font-weight: 600;
+}
+
+.TodoBtn {
+  background: hsl(224, 31%, 66%);
+  color: #ffffff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 0 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .TodoBtn {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}

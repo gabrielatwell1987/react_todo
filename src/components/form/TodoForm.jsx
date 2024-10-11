@@ -17,13 +17,13 @@ function TodoForm({ addTodo }) {
     <form className={styles.TodoForm} onSubmit={handleSubmit}>
       <input
         type="text"
-        className="todo-input"
+        className={styles.TodoInput}
         placeholder="What is your grocery item?"
         onChange={(e) => setValue(e.target.value)}
         value={value}
       />
 
-      <button type="submit" className="todo-btn">
+      <button type="submit" className={styles.TodoBtn}>
         Add Item
       </button>
     </form>
