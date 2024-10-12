@@ -47,7 +47,7 @@ function TodoWrapper() {
 
   return (
     <div className={styles.TodoWrapper}>
-      <h1>Shopping List</h1>
+      <h1 className={styles.title}>Shopping List</h1>
 
       <img src="groceries.webp" alt="groceries" width={250} />
 
