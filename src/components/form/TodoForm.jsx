@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "./todoform.module.css";
 
-// eslint-disable-next-line react/prop-types
 function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
 

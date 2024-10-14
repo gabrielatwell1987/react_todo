@@ -16,7 +16,16 @@
 }
 
 .Cursor:hover {
-  color: hsl(224, 31%, 66%);
+  opacity: 0.75;
+}
+
+p {
+  font-family: "Tilt Neon", sans-serif;
+  cursor: pointer;
+}
+
+p:hover {
+  opacity: 0.75;
 }
 
 @keyframes up {

@@ -29,12 +29,12 @@ body {
 }
 
 .incompleted {
-  color: hsl(0, 73%, 35%);
+  color: hsl(0, 96%, 45%);
   cursor: pointer;
 }
 
 .completed {
-  color: hsl(155, 94%, 18%);
+  color: hsl(155, 96%, 31%);
   text-decoration: line-through;
   cursor: pointer;
 }
