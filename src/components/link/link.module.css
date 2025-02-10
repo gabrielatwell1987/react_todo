@@ -2,6 +2,9 @@
   width: clamp(3em, 5vw, 5em);
   height: clamp(3em, 5vw, 5em);
   margin-top: 7em;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
 
   &:hover {
     opacity: 0.8;
