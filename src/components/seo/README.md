@@ -135,11 +135,8 @@ const faqs = [
 
 ## File Structure
 
-```
-src/components/seo/
-├── SEO.jsx          # Main SEO component
-├── index.js         # Export file
-├── schemas.js       # Structured data schemas
-├── seo.module.css   # Styles (for future use)
-└── README.md        # This documentation
+```html
+src/components/seo/ ├── SEO.jsx # Main SEO component ├── index.js # Export file
+├── schemas.js # Structured data schemas ├── seo.module.css # Styles (for future
+use) └── README.md # This documentation
 ```
