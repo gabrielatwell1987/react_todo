@@ -1,0 +1,33 @@
+/* 
+  SEO Component Styles
+  This file can be used for any future styling needs related to SEO features
+  such as schema markup visualization or SEO preview cards
+*/
+
+.seoPreview {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9fafb;
+}
+
+.seoPreviewTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a73e8;
+  margin-bottom: 4px;
+  text-decoration: none;
+}
+
+.seoPreviewUrl {
+  font-size: 14px;
+  color: #5f6368;
+  margin-bottom: 4px;
+}
+
+.seoPreviewDescription {
+  font-size: 14px;
+  color: #3c4043;
+  line-height: 1.4;
+}
